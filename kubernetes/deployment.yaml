@@ -12,7 +12,7 @@ spec:
       app: ecsdemo-nodejs
   strategy:
     rollingUpdate:
-      maxSurge: 25%
+      maxSurge: 26%
       maxUnavailable: 25%
     type: RollingUpdate
   template:
